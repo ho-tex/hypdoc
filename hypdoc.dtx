@@ -153,7 +153,7 @@ and the derived files
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{hypdoc.drv}%
   [2018/09/07 v1.14 Hyper extensions for doc.sty (HO)]%
-\PassOptionsToPackage{numbered}{hypdoc}%  
+\PassOptionsToPackage{numbered}{hypdoc}%
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
 \begin{document}
@@ -425,23 +425,6 @@ and the derived files
 }
 %    \end{macrocode}
 %
-% \subsubsection{Patch for bug latex/4096}
-%
-%    \begin{macrocode}
-\begingroup\expandafter\expandafter\expandafter\endgroup
-\expandafter\ifx\csname mod@math@codes\endcsname\relax
-\else
-  \def\HD@ModFix#1{%
-    \mathcode`#1=`#1\relax
-  }%
-  \g@addto@macro\mod@math@codes{%
-    \HD@ModFix\-%
-    \HD@ModFix\+%
-    \HD@ModFix\:%
-    \HD@ModFix\=%
-    \HD@ModFix\*%
-  }%
-\fi
 %    \end{macrocode}
 %
 % \subsection{Bookmarks}
