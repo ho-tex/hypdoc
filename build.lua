@@ -14,7 +14,7 @@ packtdszip  = false
 maxprintline=10000
 checkruns = 2
 
-tdsroot = "generic"
+--tdsroot = "generic"
 tagfiles = {"*.dtx", "*.md"}
 
 function update_tag(file,content,tagname,tagdate)
