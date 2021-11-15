@@ -1,12 +1,12 @@
 % \iffalse meta-comment
 %
 % File: hypdoc.dtx
-% Version: 2018/09/07 v1.14
+% Version: 2021-11-15 v1.15
 % Info: Hyper extensions for doc.sty
 %
 % Copyright (C)
 %    2002, 2006, 2007, 2009-2011 Heiko Oberdiek
-%    2016-2019 Oberdiek Package Support Group
+%    2016-2021 Oberdiek Package Support Group
 %    https://github.com/ho-tex/oberdiek/issues
 %
 % This work may be distributed and/or modified under the
@@ -79,7 +79,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: hypdoc 2018/09/07 v1.14 Hyper extensions for doc.sty (HO)}
+\Msg{* Package: hypdoc 2021-11-15 v1.15 Hyper extensions for doc.sty (HO)}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -91,11 +91,11 @@
 This is a generated file.
 
 Project: hypdoc
-Version: 2018/09/07 v1.14
+Version: 2021-11-15 v1.15
 
 Copyright (C)
    2002, 2006, 2007, 2009-2011 Heiko Oberdiek
-   2016-2019 Oberdiek Package Support Group
+   2016-2021 Oberdiek Package Support Group
 
 This work may be distributed and/or modified under the
 conditions of the LaTeX Project Public License, either
@@ -152,7 +152,7 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{hypdoc.drv}%
-  [2018/09/07 v1.14 Hyper extensions for doc.sty (HO)]%
+  [2021-11-15 v1.15 Hyper extensions for doc.sty (HO)]%
 \PassOptionsToPackage{numbered}{hypdoc}%
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
@@ -167,7 +167,7 @@ and the derived files
 % \GetFileInfo{hypdoc.drv}
 %
 % \title{The \xpackage{hypdoc} package}
-% \date{2018/09/07 v1.14}
+% \date{2021-11-15 v1.15}
 % \author{Heiko Oberdiek\thanks
 % {Please report any issues at \url{https://github.com/ho-tex/oberdiek/issues}}}
 %
@@ -345,7 +345,7 @@ and the derived files
 %<*package>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{hypdoc}%
-  [2018/09/07 v1.14 Hyper extensions for doc.sty (HO)]%
+  [2021-11-15 v1.15 Hyper extensions for doc.sty (HO)]%
 %    \end{macrocode}
 %    The package identification is done at the top of the |.dtx| file
 %    in order to use only one identification string.
@@ -1011,7 +1011,7 @@ and the derived files
     \endgroup
     \@esphack
   }%
-\pdfstringdefDisableCommands{\let\autoindex\@gobble }  
+\pdfstringdefDisableCommands{\let\autoindex\@gobble }
 \fi
 %    \end{macrocode}
 %    \end{macro}
@@ -1344,6 +1344,10 @@ and the derived files
 %   \begin{Version}{2018/09/07 v1.14}
 %   \item
 %     Do not load \xpackage{thumpdf}.
+%   \end{Version}
+%   \begin{Version}{2021-11-15 v1.15}
+%   \item removed an old, unneeded patch for latex/4096
+%   \item added a \cs{pdfstringdefDisableCommands} setting for \cs{autoindex}
 %   \end{Version}
 % \end{History}
 %
