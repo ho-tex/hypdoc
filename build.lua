@@ -6,15 +6,15 @@ module = "hypdoc"
 textfiles = {"README.md"}
 unpackfiles = {'hypdoc.dtx'}
 sourcefiles={"*.dtx"}
-installfiles={"*.sty","*.lua"}
-
+installfiles={"hypdoc.sty"}
+supportdir="."
+typesetsuppfiles={"ltxdoc.cfg"}
 
 packtdszip  = false
 
 maxprintline=10000
 checkruns = 2
 
---tdsroot = "generic"
 tagfiles = {"*.dtx", "*.md"}
 
 function update_tag(file,content,tagname,tagdate)
