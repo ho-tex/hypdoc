@@ -212,7 +212,7 @@ and the derived files
 %   and \verb|\author| and sets the corresponding PDF
 %   information fields. In case of problems see the previous
 %   item about bookmarks.
-%   These enries can be overwritten or new ones added by
+%   These entries can be overwritten or new ones added by
 %   \verb|\hypersetup| after the packages is loaded, see
 %   documentation of package \verb|hyperref|.
 % \item[References, links:] Because of package \verb|\hyperref|
@@ -375,13 +375,16 @@ and the derived files
 \fi
 %    \end{macrocode}
 %    \begin{macrocode}
-\RequirePackage[%
-  hyperindex=false,%
-  pdfusetitle,%
-  colorlinks,%
-  pdfpagelabels%
-]{hyperref}[2002/05/09]%
+\@ifpackageloaded{hyperref}
+ {\PackageWarning{hypdoc}{hyperref has been loaded before. Check the options!}}
+ {\RequirePackage[%
+    hyperindex=false,%
+    pdfusetitle,%
+    pdfpagelabels%
+    ]{hyperref}[2002/05/09]%
+ }
 \hypersetup{%
+  colorlinks,%
   plainpages=false,%
   bookmarksopen,%
   bookmarksnumbered,%
