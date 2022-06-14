@@ -7,7 +7,7 @@
 % Copyright (C)
 %    2002, 2006, 2007, 2009-2011 Heiko Oberdiek
 %    2016-2021 Oberdiek Package Support Group
-%    https://github.com/ho-tex/oberdiek/issues
+%    https://github.com/ho-tex/hypdoc/issues
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either
@@ -23,15 +23,15 @@
 %
 % The Current Maintainers of this work are
 % Heiko Oberdiek and the Oberdiek Package Support Group
-% https://github.com/ho-tex/oberdiek/issues
+% https://github.com/ho-tex/hypdoc/issues
 %
 % This work consists of the main source file hypdoc.dtx
 % and the derived files
 %    hypdoc.sty, hypdoc.pdf, hypdoc.ins, hypdoc.drv.
 %
 % Distribution:
-%    CTAN:macros/latex/contrib/oberdiek/hypdoc.dtx
-%    CTAN:macros/latex/contrib/oberdiek/hypdoc.pdf
+%    CTAN:macros/latex/contrib/hypdoc/hypdoc.dtx
+%    CTAN:macros/latex/contrib/hypdoc/hypdoc.pdf
 %
 % Unpacking:
 %    (a) If hypdoc.ins is present:
@@ -60,9 +60,9 @@
 %       pdflatex hypdoc.dtx
 %
 % Installation:
-%    TDS:tex/latex/oberdiek/hypdoc.sty
-%    TDS:doc/latex/oberdiek/hypdoc.pdf
-%    TDS:source/latex/oberdiek/hypdoc.dtx
+%    TDS:tex/latex/hypdoc/hypdoc.sty
+%    TDS:doc/latex/hypdoc/hypdoc.pdf
+%    TDS:source/latex/hypdoc/hypdoc.dtx
 %
 %<*ignore>
 \begingroup
@@ -111,7 +111,7 @@ This work has the LPPL maintenance status "maintained".
 
 The Current Maintainers of this work are
 Heiko Oberdiek and the Oberdiek Package Support Group
-https://github.com/ho-tex/oberdiek/issues
+https://github.com/ho-tex/hypdoc/issues
 
 
 This work consists of the main source file hypdoc.dtx
@@ -124,7 +124,7 @@ and the derived files
 \generate{%
   \file{hypdoc.ins}{\from{hypdoc.dtx}{install}}%
   \file{hypdoc.drv}{\from{hypdoc.dtx}{driver}}%
-  \usedir{tex/latex/oberdiek}%
+  \usedir{tex/latex/hypdoc}%
   \file{hypdoc.sty}{\from{hypdoc.dtx}{package}}%
 }
 
@@ -169,7 +169,7 @@ and the derived files
 % \title{The \xpackage{hypdoc} package}
 % \date{2021-11-15 v1.15}
 % \author{Heiko Oberdiek\thanks
-% {Please report any issues at \url{https://github.com/ho-tex/oberdiek/issues}}}
+% {Please report any issues at \url{https://github.com/ho-tex/hypdoc/issues}}}
 %
 % \maketitle
 %
@@ -213,7 +213,7 @@ and the derived files
 %   and \verb|\author| and sets the corresponding PDF
 %   information fields. In case of problems see the previous
 %   item about bookmarks.
-%   These enries can be overwritten or new ones added by
+%   These entries can be overwritten or new ones added by
 %   \verb|\hypersetup| after the packages is loaded, see
 %   documentation of package \verb|hyperref|.
 % \item[References, links:] Because of package \verb|\hyperref|
@@ -376,13 +376,16 @@ and the derived files
 \fi
 %    \end{macrocode}
 %    \begin{macrocode}
-\RequirePackage[%
-  hyperindex=false,%
-  pdfusetitle,%
-  colorlinks,%
-  pdfpagelabels%
-]{hyperref}[2002/05/09]%
+\@ifpackageloaded{hyperref}
+ {\PackageWarning{hypdoc}{hyperref has been loaded before. Check the options!}}
+ {\RequirePackage[%
+    hyperindex=false,%
+    pdfusetitle,%
+    pdfpagelabels%
+    ]{hyperref}[2002/05/09]%
+ }
 \hypersetup{%
+  colorlinks,%
   plainpages=false,%
   bookmarksopen,%
   bookmarksnumbered,%
@@ -1117,32 +1120,15 @@ and the derived files
 % \paragraph{Package.} This package is available on
 % CTAN\footnote{\CTANpkg{hypdoc}}:
 % \begin{description}
-% \item[\CTAN{macros/latex/contrib/oberdiek/hypdoc.dtx}] The source file.
-% \item[\CTAN{macros/latex/contrib/oberdiek/hypdoc.pdf}] Documentation.
+% \item[\CTAN{macros/latex/contrib/hypdoc/hypdoc.dtx}] The source file.
+% \item[\CTAN{macros/latex/contrib/hypdoc/hypdoc.pdf}] Documentation.
 % \end{description}
 %
-%
-% \paragraph{Bundle.} All the packages of the bundle `oberdiek'
-% are also available in a TDS compliant ZIP archive. There
-% the packages are already unpacked and the documentation files
-% are generated. The files and directories obey the TDS standard.
-% \begin{description}
-% \item[\CTANinstall{install/macros/latex/contrib/oberdiek.tds.zip}]
-% \end{description}
-% \emph{TDS} refers to the standard ``A Directory Structure
-% for \TeX\ Files'' (\CTANpkg{tds}). Directories
-% with \xfile{texmf} in their name are usually organized this way.
-%
-% \subsection{Bundle installation}
-%
-% \paragraph{Unpacking.} Unpack the \xfile{oberdiek.tds.zip} in the
-% TDS tree (also known as \xfile{texmf} tree) of your choice.
-% Example (linux):
-% \begin{quote}
-%   |unzip oberdiek.tds.zip -d ~/texmf|
-% \end{quote}
 %
 % \subsection{Package installation}
+%
+% The best is to install the package with the package manager of your \TeX{}
+% distribution. If a manual installation is needed:
 %
 % \paragraph{Unpacking.} The \xfile{.dtx} file is a self-extracting
 % \docstrip\ archive. The files are extracted by running the
@@ -1157,9 +1143,9 @@ and the derived files
 % \begin{quote}
 % \def\t{^^A
 % \begin{tabular}{@{}>{\ttfamily}l@{ $\rightarrow$ }>{\ttfamily}l@{}}
-%   hypdoc.sty & tex/latex/oberdiek/hypdoc.sty\\
-%   hypdoc.pdf & doc/latex/oberdiek/hypdoc.pdf\\
-%   hypdoc.dtx & source/latex/oberdiek/hypdoc.dtx\\
+%   hypdoc.sty & tex/latex/hypdoc/hypdoc.sty\\
+%   hypdoc.pdf & doc/latex/hypdoc/hypdoc.pdf\\
+%   hypdoc.dtx & source/latex/hypdoc/hypdoc.dtx\\
 % \end{tabular}^^A
 % }^^A
 % \sbox0{\t}^^A
