@@ -1,6 +1,6 @@
 # hypdoc
 
-Version: 2022-06-14 v1.16
+Version: 2022-07-03 v1.17
 
 This package adds hyper features to the package
 doc that is used in the documentation

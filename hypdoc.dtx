@@ -1,7 +1,7 @@
 % \iffalse meta-comment
 %
 % File: hypdoc.dtx
-% Version: 2022-06-14 v1.16
+% Version: 2022-07-03 v1.17
 % Info: Hyper extensions for doc.sty
 %
 % Copyright (C)
@@ -79,7 +79,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: hypdoc 2022-06-14 v1.16 Hyper extensions for doc.sty (HO)}
+\Msg{* Package: hypdoc 2022-07-03 v1.17 Hyper extensions for doc.sty (HO)}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -91,7 +91,7 @@
 This is a generated file.
 
 Project: hypdoc
-Version: 2022-06-14 v1.16
+Version: 2022-07-03 v1.17
 
 Copyright (C)
    2002, 2006, 2007, 2009-2011 Heiko Oberdiek
@@ -152,7 +152,7 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{hypdoc.drv}%
-  [2022-06-14 v1.16 Hyper extensions for doc.sty (HO)]%
+  [2022-07-03 v1.17 Hyper extensions for doc.sty (HO)]%
 \PassOptionsToPackage{numbered}{hypdoc}
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
@@ -167,7 +167,7 @@ and the derived files
 % \GetFileInfo{hypdoc.drv}
 %
 % \title{The \xpackage{hypdoc} package}
-% \date{2022-06-14 v1.16}
+% \date{2022-07-03 v1.17}
 % \author{Heiko Oberdiek\thanks
 % {Please report any issues at \url{https://github.com/ho-tex/hypdoc/issues}}}
 %
@@ -345,7 +345,7 @@ and the derived files
 %<*package>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{hypdoc}%
-  [2022-06-14 v1.16 Hyper extensions for doc.sty (HO)]%
+  [2022-07-03 v1.17 Hyper extensions for doc.sty (HO)]%
 %    \end{macrocode}
 %    The package identification is done at the top of the |.dtx| file
 %    in order to use only one identification string.
@@ -748,10 +748,12 @@ and the derived files
       \let\HDorg@tilde~%
       \let~\HD@savedest@entry
       \edef\HDorg@catcodeM{\the\catcode`\^^M}%
+      \let\HDorg@M^^M%
       \catcode`\^^M=\active
       \def^^M{}%
       \InputIfFileExists{\jobname.hd}{}{}%
       \let~\HDorg@tilde
+      \let^^M\HDorg@M
       \catcode`\^^M=\HDorg@catcodeM\relax
       \newwrite\HD@savedest@out
       \RerunFileCheck{\jobname.hd}{%
@@ -1336,6 +1338,9 @@ and the derived files
 %   \end{Version}
 %   \begin{Version}{2022-06-14 v1.16}
 %   \item Avoid to load hyperref if has been already loaded, issue \#1
+%   \end{Version}
+%   \begin{Version}{2022-07-03 v1.17}
+%   \item Restore defintion of active control-m (issue 3)
 %   \end{Version}
 % \end{History}
 %
