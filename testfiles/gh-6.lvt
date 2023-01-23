@@ -1,0 +1,14 @@
+\documentclass{article}
+\input{regression-test}
+\usepackage[numbers]{natbib}
+\usepackage{hypdoc}
+\begin{document}
+
+\START
+
+test 
+\begin{thebibliography}{99}
+\bibitem{yyyy} xxxx 
+\end{thebibliography}
+
+\END
