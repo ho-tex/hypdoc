@@ -1,7 +1,7 @@
 % \iffalse meta-comment
 %
 % File: hypdoc.dtx
-% Version: 2023-01-23 v1.18
+% Version: 2023-10-26 v1.19
 % Info: Hyper extensions for doc.sty
 %
 % Copyright (C)
@@ -79,7 +79,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: hypdoc 2023-01-23 v1.18 Hyper extensions for doc.sty (HO)}
+\Msg{* Package: hypdoc 2023-10-26 v1.19 Hyper extensions for doc.sty (HO)}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -91,7 +91,7 @@
 This is a generated file.
 
 Project: hypdoc
-Version: 2023-01-23 v1.18
+Version: 2023-10-26 v1.19
 
 Copyright (C)
    2002, 2006, 2007, 2009-2011 Heiko Oberdiek
@@ -152,7 +152,7 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{hypdoc.drv}%
-  [2023-01-23 v1.18 Hyper extensions for doc.sty (HO)]%
+  [2023-10-26 v1.19 Hyper extensions for doc.sty (HO)]%
 \PassOptionsToPackage{numbered}{hypdoc}
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
@@ -167,7 +167,7 @@ and the derived files
 % \GetFileInfo{hypdoc.drv}
 %
 % \title{The \xpackage{hypdoc} package}
-% \date{2023-01-23 v1.18}
+% \date{2023-10-26 v1.19}
 % \author{Heiko Oberdiek\thanks
 % {Please report any issues at \url{https://github.com/ho-tex/hypdoc/issues}}}
 %
@@ -345,7 +345,7 @@ and the derived files
 %<*package>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{hypdoc}%
-  [2023-01-23 v1.18 Hyper extensions for doc.sty (HO)]%
+  [2023-10-26 v1.19 Hyper extensions for doc.sty (HO)]%
 %    \end{macrocode}
 %    The package identification is done at the top of the |.dtx| file
 %    in order to use only one identification string.
@@ -1354,6 +1354,10 @@ and the derived files
 %   \end{Version}
 %   \begin{Version}{2023-01-23 v1.18}
 %   \item made an internal command long for compability with natbib, issue \#6
+%   \end{Version}
+%   \begin{Version}{2023-10-26 v1.19}
+%   \item Switch to hmode in \cs{HD@maketarget}, issue \#7
+%   \item Check options of previously loaded hyperref more explicitly, issue \#4 and \#5.
 %   \end{Version}
 % \end{History}
 %
