@@ -377,11 +377,20 @@ and the derived files
 %    \end{macrocode}
 %    \begin{macrocode}
 \@ifpackageloaded{hyperref}
- {\PackageWarning{hypdoc}{hyperref has been loaded before. Check the options!}}
+ {
+   \ifHy@hyperindex
+    \PackageWarning{hypdoc}{%
+     hyperref has been loaded before with option 'hyperindex' enabled.\MessageBreak
+     The index will not work properly.}
+   \fi
+   \ifHy@pdfusetitle\else
+     \PackageInfo{hypdoc}{%
+     hyperref has been loaded before with option 'pdfusetitle' disabled.}
+   \fi  
+ }
  {\RequirePackage[%
     hyperindex=false,%
-    pdfusetitle,%
-    pdfpagelabels%
+    pdfusetitle,%    
     ]{hyperref}[2002/05/09]%
  }
 \hypersetup{%
