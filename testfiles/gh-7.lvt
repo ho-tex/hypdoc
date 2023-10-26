@@ -1,0 +1,36 @@
+\documentclass{ltxdoc}
+\input{regression-test}
+\begin{document}
+\START\showoutput
+xxxx
+
+
+\SpecialMacroIndex{\def}\relax
+\SpecialMacroIndex{\ghi}\relax
+\SpecialMacroIndex{\jkl}\relax
+some text
+
+
+ \begin{theindex} 
+ \makeatletter\scan@allowedfalse
+{\bfseries\hfil B\hfil}\nopagebreak
+
+  \item blub\pfill i
+
+  \indexspace
+{\bfseries\hfil D\hfil}\nopagebreak
+
+  \item \verb*+\def+\pfill \hdclindex{1}{usage}{i}
+
+  \indexspace
+{\bfseries\hfil G\hfil}\nopagebreak
+
+  \item \verb*+\ghi+\pfill \hdclindex{2}{usage}{i}
+
+  \indexspace
+{\bfseries\hfil J\hfil}\nopagebreak
+
+  \item \verb*+\jkl+\pfill \hdclindex{3}{usage}{i}
+
+ \end{theindex}
+\end{document}

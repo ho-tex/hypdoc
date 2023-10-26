@@ -811,6 +811,7 @@ and the derived files
 \def\HD@maketarget{%
   \stepcounter{HD@hypercount}%
   \def\HD@next{%
+    \leavevmode
     \llap{\hypertarget{HD.\the\c@HD@hypercount}{}\,}%
   }%
   \ifHD@savedest

@@ -1,0 +1,450 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Completed box being shipped out [1]
+\vbox(682.0+0.0)x428.0
+.\hbox(0.0+0.0)x0.0
+..\special{pdf:docinfo<</Title()/Subject()/Creator(LaTeX with hyperref)/Author()/Keywords()>>}
+.\vbox(0.0+0.0)x0.0, glue set - 15.99626fil
+..\kern 0.0
+..\kern 17.0
+..\kern -1.00374
+..\hbox(0.0+0.0)x0.0, glue set - 71.99626fil
+...\kern 0.0
+...\kern 73.0
+...\kern -1.00374
+...\special{pdf:dest (page.1) [@thispage /XYZ @xpos @ypos null]}
+...\penalty 10000
+...\glue 0.0 plus 1.0fil minus 1.0fil
+..\glue 0.0 plus 1.0fil minus 1.0fil
+.\glue(\lineskip) 0.0
+.\vbox(682.0+0.0)x428.0
+..\glue 17.0
+..\vbox(665.0+0.0)x355.0, shifted 73.0
+...\vbox(12.0+0.0)x355.0, glue set 12.0fil
+....\glue 0.0 plus 1.0fil
+....\hbox(0.0+0.0)x355.0
+.....\special{color push  Black}
+.....\hbox(0.0+0.0)x355.0
+.....\special{color pop}
+...\glue 25.0
+...\glue(\lineskip) 0.0
+...\vbox(598.0+0.0)x355.0, glue set 420.95705fil
+....\write-{}
+....\special{pdf:majorversion 1}
+....\special{pdf:minorversion 5}
+....\special{pdf:outline [-] 1<</Title(\376\377\000I\000n\000d\000e\000x)/A<</S/GoTo/D(index1.1)>>>>}
+....\special{pdf:outline [-] 2<</Title(\376\377\000B)/A<</S/GoTo/D(HD.B.2)>>>>}
+....\special{pdf:outline [-] 2<</Title(\376\377\000D)/A<</S/GoTo/D(HD.D.2)>>>>}
+....\special{pdf:outline [-] 2<</Title(\376\377\000G)/A<</S/GoTo/D(HD.G.2)>>>>}
+....\special{pdf:outline [-] 2<</Title(\376\377\000J)/A<</S/GoTo/D(HD.J.2)>>>>}
+....\special{pdf:docview<</OpenAction[@page1/FitBH 716.08977]/PageMode/UseOutlines>>}
+....\special{pdf:dest (Doc-Start) [@thispage /XYZ @xpos @ypos null]}
+....\glue(\topskip) 5.69
+....\hbox(4.31+0.0)x355.0, glue set 318.88fil
+.....\hbox(0.0+0.0)x15.0
+.....\TU/lmr/m/n/10 xxxx
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\glue(\parskip) 0.0 plus 1.0
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 5.85
+....\hbox(6.15+0.10999)x355.0, glue set 297.45999fil
+.....\hbox(0.0+0.0)x15.0
+.....\hbox(0.0+0.0)x0.0, glue set - 1.66672fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+......\special{pdf:dest (HD.1) [@thispage /XYZ @xpos @ypos null]}
+......\penalty 10000
+......\kern 1.66672
+.....\hbox(0.0+0.0)x0.0
+......\hbox(0.0+0.0)x0.0, shifted -9.22397
+.......\hbox(0.0+0.0)x0.0, glue set - 1.66672fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\special{pdf:dest (HD.2) [@thispage /XYZ @xpos @ypos null]}
+........\penalty 10000
+........\kern 1.66672
+.....\hbox(0.0+0.0)x0.0
+......\hbox(0.0+0.0)x0.0, shifted -9.22397
+.......\hbox(0.0+0.0)x0.0, glue set - 1.66672fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+........\special{pdf:dest (HD.3) [@thispage /XYZ @xpos @ypos null]}
+........\penalty 10000
+........\kern 1.66672
+.....\TU/lmr/m/n/10 some
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 text
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\penalty 0
+....\write3{\protect \BOOKMARK [1][-]{index1.1}{\376\377\000I\000n\000d\000e\000x}{}% 1}
+....\special{pdf:dest (index1.1) [@thispage /XYZ @xpos @ypos null]}
+....\penalty 10000
+....\penalty -300
+....\glue 15.08499 plus 4.31 minus 0.86198
+....\glue(\parskip) 0.0 plus 1.0
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 7.89642
+....\hbox(9.99359+0.08638)x355.0, glue set 315.02562fil
+.....\hbox(0.0+0.0)x0.0
+......\glue 0.0
+.....\hbox(0.0+0.0)x0.0
+......\kern 0.0
+......\penalty 10000
+......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0, shifted -18.0
+........\special{pdf:dest (section*.1) [@thispage /XYZ @xpos @ypos null]}
+........\penalty 10000
+......\glue 0.0 plus 1.0fil minus 1.0fil
+.....\TU/lmr/bx/n/14.4 Index
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\penalty 10000
+....\glue 9.913 plus 0.86198
+....\marks1{Index}
+....\marks2{Index}
+....\marks3{Index}
+....\mark{{Index}{Index}}
+....\penalty 10000
+....\glue(\parskip) 0.0 plus 1.0
+....\glue(\parskip) 0.0
+....\glue(\baselineskip) 4.86362
+....\hbox(7.05+2.05998)x355.0, glue set 0.22638
+.....\TU/lmr/m/n/10 Numbers
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 written
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 in
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 italic
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 refer
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 to
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 the
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 page
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 where
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 the
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 corresponding
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 entry
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 is
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 de-
+.....\glue(\rightskip) 0.0
+....\penalty 10100
+....\glue(\baselineskip) 2.89001
+....\hbox(7.05+1.92998)x355.0, glue set 0.4195
+.....\TU/lmr/m/n/10 scribed;
+.....\glue 3.33 plus 2.49748 minus 0.73999
+.....\TU/lmr/m/n/10 numbers
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 underlined
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 refer
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 to
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 the
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 code
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 line
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 of
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 the
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 definition;
+.....\glue 3.33 plus 2.49748 minus 0.73999
+.....\TU/lmr/m/n/10 numbers
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 in
+.....\glue(\rightskip) 0.0
+....\penalty 150
+....\glue(\baselineskip) 3.02002
+....\hbox(7.05+2.04999)x355.0, glue set 120.82999fil
+.....\TU/lmr/m/n/10 roman
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 refer
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 to
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 the
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 code
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 lines
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 where
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 the
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 entry
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 is
+.....\glue 3.33 plus 1.665 minus 1.11
+.....\TU/lmr/m/n/10 used.
+.....\penalty 10000
+.....\glue(\parfillskip) 0.0 plus 1.0fil
+.....\glue(\rightskip) 0.0
+....\glue 12.0 plus 4.0 minus 3.0
+....\kern -0.04999
+....\mark{{Index}{Index}}
+....\penalty 10000
+....\mark{{Index}{Index}}
+....\penalty 10000
+....\hbox(50.0+3.30003)x355.0, glue set 5.00002fil
+.....\vbox(50.0+3.30003)x111.66666, glue set - 1.0
+......\glue 0.0 plus -2.0
+......\glue(\splittopskip) 3.826 plus 2.0
+......\hbox(6.174+0.0)x111.66666, glue set 52.04883fil
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0
+........\hbox(0.0+0.0)x0.0, shifted -11.0
+.........\kern -2.84526
+.........\write3{\protect \BOOKMARK [2][-]{HD.B.2}{\376\377\000B}{index1.1}% 2}
+.........\special{pdf:dest (HD.B.2) [@thispage /XYZ @xpos @ypos null]}
+.........\penalty 10000
+.........\kern 2.84526
+.......\glue 0.0 plus 1.0fil
+.......\TU/lmr/bx/n/9 B
+.......\glue 0.0 plus 1.0fil
+.......\penalty 10000
+.......\glue(\parfillskip) -15.0
+.......\glue(\rightskip) 15.0
+......\penalty 10000
+......\glue(\parskip) 0.0 plus 1.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.30003
+......\hbox(7.69997+3.30003)x111.66666, glue set 84.92764fill
+.......\hbox(0.0+0.0)x0.0
+.......\TU/lmr/m/n/9 blub
+.......\penalty 10000
+.......\glue 3.087 plus 1.5435 minus 1.02899
+.......\leaders 0.0 plus 1.0fill
+........\hbox(0.972+0.0)x5.40005, glue set 1.41302fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\TU/lmr/m/n/9 .
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 500
+.......\rule(7.69997+3.30003)x0.0
+.......\penalty 10000
+.......\leaders 0.0 plus 1.0fil
+........\hbox(0.972+0.0)x5.40005, glue set 1.41302fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\TU/lmr/m/n/9 .
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 10000
+.......\glue 3.087 plus 1.5435 minus 1.02899
+.......\TU/lmr/m/n/9 i
+.......\penalty 10000
+.......\glue(\parfillskip) -15.0
+.......\glue(\rightskip) 15.0
+......\glue 10.0 plus 2.0 minus 3.0
+......\glue 0.0
+......\glue(\parskip) 0.0 plus 1.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 1.52597
+......\hbox(6.174+0.0)x111.66666, glue set 51.75183fil
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0
+........\hbox(0.0+0.0)x0.0, shifted -11.0
+.........\kern -2.84526
+.........\write3{\protect \BOOKMARK [2][-]{HD.D.2}{\376\377\000D}{index1.1}% 3}
+.........\special{pdf:dest (HD.D.2) [@thispage /XYZ @xpos @ypos null]}
+.........\penalty 10000
+.........\kern 2.84526
+.......\glue 0.0 plus 1.0fil
+.......\TU/lmr/bx/n/9 D
+.......\glue 0.0 plus 1.0fil
+.......\penalty 10000
+.......\glue(\parfillskip) -15.0
+.......\glue(\rightskip) 15.0
+......\penalty 10000
+......\glue(\parskip) 0.0 plus 1.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.30003
+......\hbox(7.69997+3.30003)x111.66666, glue set 83.75764fill
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0
+.......\setlanguage2 (hyphenmin 2,3)
+.......\TU/lmtt/m/n/9 \def
+.......\penalty 10000
+.......\glue 3.087 plus 1.5435 minus 1.02899
+.......\leaders 0.0 plus 1.0fill
+........\hbox(0.972+0.0)x5.40005, glue set 1.41302fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\TU/lmr/m/n/9 .
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 500
+.......\rule(7.69997+3.30003)x0.0
+.......\penalty 10000
+.......\leaders 0.0 plus 1.0fil
+........\hbox(0.972+0.0)x5.40005, glue set 1.41302fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\TU/lmr/m/n/9 .
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 10000
+.......\glue 3.087 plus 1.5435 minus 1.02899
+.......\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/I/C[1 0 0]/A<</S/GoTo/D(HD.1)>>>>}
+.......\special{color push rgb 1 0 0}
+.......\setlanguage0 (hyphenmin 2,3)
+.......\TU/lmr/m/it/9 i
+.......\special{color pop}
+.......\special{pdf:eann}
+.......\penalty 10000
+.......\glue(\parfillskip) -15.0
+.......\glue(\rightskip) 15.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\special{color push  Black}
+.....\rule(*+*)x0.0
+.....\special{color pop}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\vbox(50.0+3.30003)x111.66666, glue set - 1.0
+......\glue 0.0 plus -2.0
+......\glue(\splittopskip) 3.718 plus 2.0
+......\hbox(6.282+0.10799)x111.66666, glue set 51.64833fil
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0
+........\hbox(0.0+0.0)x0.0, shifted -11.0
+.........\kern -2.84526
+.........\write3{\protect \BOOKMARK [2][-]{HD.G.2}{\376\377\000G}{index1.1}% 4}
+.........\special{pdf:dest (HD.G.2) [@thispage /XYZ @xpos @ypos null]}
+.........\penalty 10000
+.........\kern 2.84526
+.......\glue 0.0 plus 1.0fil
+.......\TU/lmr/bx/n/9 G
+.......\glue 0.0 plus 1.0fil
+.......\penalty 10000
+.......\glue(\parfillskip) -15.0
+.......\glue(\rightskip) 15.0
+......\penalty 10000
+......\glue(\parskip) 0.0 plus 1.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.19205
+......\hbox(7.69997+3.30003)x111.66666, glue set 83.75764fill
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0
+.......\setlanguage2 (hyphenmin 2,3)
+.......\TU/lmtt/m/n/9 \ghi
+.......\penalty 10000
+.......\glue 3.087 plus 1.5435 minus 1.02899
+.......\leaders 0.0 plus 1.0fill
+........\hbox(0.972+0.0)x5.40005, glue set 1.41302fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\TU/lmr/m/n/9 .
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 500
+.......\rule(7.69997+3.30003)x0.0
+.......\penalty 10000
+.......\leaders 0.0 plus 1.0fil
+........\hbox(0.972+0.0)x5.40005, glue set 1.41302fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\TU/lmr/m/n/9 .
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 10000
+.......\glue 3.087 plus 1.5435 minus 1.02899
+.......\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/I/C[1 0 0]/A<</S/GoTo/D(HD.2)>>>>}
+.......\special{color push rgb 1 0 0}
+.......\setlanguage0 (hyphenmin 2,3)
+.......\TU/lmr/m/it/9 i
+.......\special{color pop}
+.......\special{pdf:eann}
+.......\penalty 10000
+.......\glue(\parfillskip) -15.0
+.......\glue(\rightskip) 15.0
+......\glue 10.0 plus 2.0 minus 3.0
+......\glue 0.0
+......\glue(\parskip) 0.0 plus 1.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 1.52597
+......\hbox(6.174+0.10799)x111.66666, glue set 53.08383fil
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0
+........\hbox(0.0+0.0)x0.0, shifted -11.0
+.........\kern -2.84526
+.........\write3{\protect \BOOKMARK [2][-]{HD.J.2}{\376\377\000J}{index1.1}% 5}
+.........\special{pdf:dest (HD.J.2) [@thispage /XYZ @xpos @ypos null]}
+.........\penalty 10000
+.........\kern 2.84526
+.......\glue 0.0 plus 1.0fil
+.......\TU/lmr/bx/n/9 J
+.......\glue 0.0 plus 1.0fil
+.......\penalty 10000
+.......\glue(\parfillskip) -15.0
+.......\glue(\rightskip) 15.0
+......\penalty 10000
+......\glue(\parskip) 0.0 plus 1.0
+......\glue(\parskip) 0.0
+......\glue(\baselineskip) 3.19205
+......\hbox(7.69997+3.30003)x111.66666, glue set 83.75764fill
+.......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0
+.......\setlanguage2 (hyphenmin 2,3)
+.......\TU/lmtt/m/n/9 \jkl
+.......\penalty 10000
+.......\glue 3.087 plus 1.5435 minus 1.02899
+.......\leaders 0.0 plus 1.0fill
+........\hbox(0.972+0.0)x5.40005, glue set 1.41302fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\TU/lmr/m/n/9 .
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 500
+.......\rule(7.69997+3.30003)x0.0
+.......\penalty 10000
+.......\leaders 0.0 plus 1.0fil
+........\hbox(0.972+0.0)x5.40005, glue set 1.41302fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\TU/lmr/m/n/9 .
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\penalty 10000
+.......\glue 3.087 plus 1.5435 minus 1.02899
+.......\special{pdf:bann<</Type/Annot/Subtype/Link/Border[0 0 0]/H/I/C[1 0 0]/A<</S/GoTo/D(HD.3)>>>>}
+.......\special{color push rgb 1 0 0}
+.......\setlanguage0 (hyphenmin 2,3)
+.......\TU/lmr/m/it/9 i
+.......\special{color pop}
+.......\special{pdf:eann}
+.......\penalty 10000
+.......\glue(\parfillskip) -15.0
+.......\glue(\rightskip) 15.0
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\special{color push  Black}
+.....\rule(*+*)x0.0
+.....\special{color pop}
+.....\glue 0.0 plus 1.0fil minus 1.0fil
+.....\vbox(50.0+0.0)x111.66666, glue set -25.0
+......\glue 0.0 plus -2.0
+.....\hbox(3.978+1.74599)x0.0, glue set - 5.139fil
+......\hbox(3.978+1.74599)x5.139
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\kern -3.30003
+....\penalty 0
+....\penalty 10000
+....\penalty 0
+....\glue 12.0 plus 4.0 minus 3.0
+....\glue 0.0 plus 1.0fil
+....\glue 0.0
+....\glue 0.0 plus 0.0001fil
+...\glue(\baselineskip) 23.34
+...\hbox(6.66+0.0)x355.0
+....\special{color push  Black}
+....\hbox(6.66+0.0)x355.0, glue set 175.0fil
+.....\glue 0.0 plus 1.0fil
+.....\TU/lmr/m/n/10 1
+.....\glue 0.0 plus 1.0fil
+....\special{color pop}
+.\kern 0.0
+(gh-7.aux)
+Package rerunfilecheck Info: File `gh-7.out' has not changed.
+(rerunfilecheck)             Checksum: 38A35D5428806545210FB2F441A3B691;279.
+Package rerunfilecheck Info: File `gh-7.hd' has not changed.
+(rerunfilecheck)             Checksum: 53CDD64F084CAE7813BD9FA7DDAF6AF1;9.
